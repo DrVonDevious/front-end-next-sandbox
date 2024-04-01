@@ -5,12 +5,12 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "npx @biomejs/biome format \"**/*.{ts,tsx,md}\" --write"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
+    "@biomejs/biome": "1.6.3",
     "@repo/typescript-config": "workspace:*",
-    "prettier": "^3.2.5",
+    "@repo/tailwind-config": "workspace:*",
     "turbo": "latest"
   },
   "packageManager": "pnpm@8.9.0",
